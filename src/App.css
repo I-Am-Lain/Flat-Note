@@ -27,3 +27,26 @@
   align-items: center;
   text-align: center;
 }
+
+.dashboard{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  /* border: 2px solid red; */
+  height: 100%;
+  width: 100%;
+  background-color: rgb(9, 9, 9);
+  color: white;
+}
+
+.meine{
+  width: 50%;
+}
+
+.todo-container{
+  display: flex;
+  flex-direction: column;
+}

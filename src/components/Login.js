@@ -44,6 +44,11 @@ class Login extends React.Component {
                 this.props.history.push('/')
             }
         })
+
+        this.setState({
+            email: '',
+            password: ''
+        })
     }
 
     handleSignup = () => {
