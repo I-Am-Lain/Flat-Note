@@ -24,9 +24,10 @@ const TodoCard = (props) => {
             <div class="card-body">
                 <p class="card-text" style={{color: 'black'}}>{props.name}</p>
                 <button type='button' class="btn btn-success" onClick={() => handleDelete(props.id, props.deleteTodo)} >Finish</button>
-                <Button variant="primary" onClick={() => setModalShow(true)}>
+
+                <Button variant="outline-secondary"onClick={() => setModalShow(true)}>
                     Edit
-                </Button>
+                </Button>{' '}
 
                 <ModalEdit
                     show={modalShow}
