@@ -7,6 +7,8 @@ import TodoContainer from './components/TodoContainer'
 
 import { createTodo } from './actions/'
 
+import 'semantic-ui-css/semantic.min.css'
+
 class App extends React.Component {
 
   state = {
@@ -65,11 +67,9 @@ class App extends React.Component {
         </div>
 
         <TodoContainer/>
+        bottom line
 
-        'Todo Show Box' (for editing)
-
-        Logout Button
-      </div>
+</div>
     )
   }
 }

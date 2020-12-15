@@ -35,7 +35,6 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  /* border: 2px solid red; */
   height: 100%;
   width: 100%;
   background-color: rgb(9, 9, 9);
@@ -48,5 +47,12 @@
 
 .todo-container{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 75%;
+  max-height: 60%;
+}
+
+.card{
+  margin: 1%;
 }

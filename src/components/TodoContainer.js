@@ -4,9 +4,9 @@ import { connect } from 'react-redux'
 import TodoCard from './TodoCard'
 
 const TodoContainer = (props) => (
-    <div className='todo-container'>
+    <div className='todo-container overflow-auto'>
         {
-            props.todos.map(todo => <TodoCard {...todo} />)
+            props.todos.map(todo => <TodoCard key={todo.id} {...todo} />)
         }
     </div>
 )
