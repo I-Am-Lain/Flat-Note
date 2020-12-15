@@ -1,7 +1,8 @@
-export const loginSuccess = (user) => {
+export const loginSuccess = ({ user, todos }) => {
     return {
         type: 'LOGIN_SUCCESS',
-        user
+        user,
+        todos
     }
 }
 

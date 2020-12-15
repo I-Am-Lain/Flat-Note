@@ -14,10 +14,13 @@ class App extends React.Component {
   render(){
     return (
       <div className="dashboard">
-        Dirtboi
+        Header
+        New Todo form (can create)
+        Todo List (can delete)
+        'Todo Show Box' (for editing)
       </div>
     )
   }
 }
 
-export default connect(state => ({ auth: state.auth }))(App);
+export default connect(state => ({ auth: state.auth, todos: state.todos }))(App);
