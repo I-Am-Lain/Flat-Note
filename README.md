@@ -1,7 +1,7 @@
 Flat-Note
 ---------
 
-One of the great classics in application building, welcome to Flat-Note! An app that allows users log-in and begin managing their "To-Dos"--some would say in a List style.
+One of the great classics in application building, welcome to Flat-Note! An app that allows users to log in and begin managing their "To-Dos"--some would say in a List style.
 
 Technology
 ----------
